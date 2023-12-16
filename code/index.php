@@ -10,7 +10,7 @@ var_dump(0 == 'hello, world'); //8.2: false, 7.4: true. Более старые 
 $x = 2;
 $y = 5;
 echo "x = $x, y = $y\n";
-$x = $x + $y;
-$y = $x - $y;
-$x = $x - $y;
+$x = $x ^ $y;
+$y = $x ^ $y;
+$x = $x ^ $y;
 echo "x = $x, y = $y";
